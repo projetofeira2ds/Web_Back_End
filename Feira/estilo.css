@@ -1,0 +1,143 @@
+.menu {
+	margin-bottom: 25px;
+}
+
+.app {
+	margin-top: 25px;
+}
+
+.pagina {
+	border:solid 1px #DFDFDF;
+	padding:25px !important;
+}
+
+li.list-group-item.active {
+	background-color: #fff;
+	border-color: #009933;
+    border-left:solid 10px #009933;
+}
+
+li a {
+	color: #212529;
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+h4 {
+	color: #009933 !important;
+}
+
+/*------------------------MEDIA QUERYS-----------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+	@media (max-width: 575.98px) {
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding:0;
+			overflow-x:hidden;
+		}
+
+		.wrapper {
+			min-height: 20%;
+			margin-bottom: -50px;
+		}
+		.push {
+			height: 5px;
+		}
+		
+  }
+
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767.98px) {
+	html, body {
+	  height: 100%;
+	  margin: 0;
+	  padding:0;
+	  overflow-x:hidden;
+	}
+
+	.wrapper {
+	  min-height: 20%;
+	  margin-bottom: -50px;
+	}
+	.push {
+	  height: 5px;
+	}
+  }
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+	html, body {
+	  height: 100%;
+	  margin: 0;
+	  padding:0;
+	  overflow-x:hidden;
+	}
+
+	.wrapper {
+	  min-height: 0%;
+	  margin-bottom: 0px;
+	}
+	.push {
+	  height: 0px;
+	}
+	.footer{
+	  position:absolute;
+	  bottom:0;
+	  width:100%;
+	}
+  }
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+	html, body {
+	  height: 100%;
+	  margin: 0;
+	  padding:0;
+	  overflow-x:hidden;
+	}
+
+	.wrapper {
+	  min-height: 0%;
+	  margin-bottom: 0px;
+	}
+	.push {
+	  height: 0px;
+	}
+	.footer{
+	  position:absolute;
+	  bottom:0;
+	  width:100%;
+	}
+  }
+
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+	html, body {
+		height: 100%;
+		width: 100%;
+	  margin: 0;
+	  padding:0;
+	  overflow-x:hidden;
+	}
+
+	.wrapper {
+	  min-height: 0%;
+	  margin-bottom: 0px;
+	}
+	.push {
+	  height: 0px;
+	}
+	.footer{
+	  position:absolute;
+	  bottom:0;
+	  width: 100%;          
+	}
+
+	#excluir{
+		margin-right: 10px;
+	}
+  }
+
+
